@@ -1,0 +1,197 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lyft-icon{
+    font-size: 60px;
+    padding: 19px;
+}
+
+.lyft-icon .fab{
+    color: rgb(255, 0, 191);
+}
+
+.lyft-icon .fab:hover{
+    color: black;
+}
+
+nav ul{
+    margin: 40px;
+    margin-right: 100px;
+    padding-left: 5px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(43, 41, 41); 
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+.big_image img{
+    width: 100%;
+    height: 700px;
+    margin-top: -10px;
+}
+
+.signup_section {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.signup1{
+    border: 1px black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.signup1:hover{
+    background-color: darkblue;
+}
+
+.signup2{
+    border: 1px solid rgb(153, 147, 147);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.signup2:hover{
+    background-color: lightgray;
+}
+
+.signup3{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.signup3:hover{
+    background-color: lightgray;
+}
+
+.signup1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signup2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signup3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.last_container{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.header_list h4{
+    padding-left: 39px;
+}
+
+.header_list ul{
+    list-style: none;
+    padding-right: 70px;
+}
+
+.header_list li{
+    margin-right: 30px;
+}
+
+.header_list a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+}
+
+.header_list a:hover{
+    color: blue;
+}
+
+.lyft_app ul{
+    list-style: none;
+}
+
+.lyft_app li{
+    border: 1px solid rgb(153, 147, 147);
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.lyft_app a{
+    text-decoration: none;
+    color: black;
+    line-height: 2.5;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lyft_app li:hover{
+    background-color: lightgray;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.copyright{
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.icons{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.fab{
+    color: black;
+}
+
+.fab:hover{
+    color: blue;
+}
